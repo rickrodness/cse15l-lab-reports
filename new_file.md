@@ -3,5 +3,7 @@ This is an example of bold text: **Cool**\
 We can also write in italics:  _Very Cool_ 
 ## Best Dog Breeds
 1. Golden Retriever
-2. Labrador Retriever
-3. Bernese Mountain Dog
+![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/golden.jpg?raw=true)   
+3. Labrador Retriever
+4. Bernese Mountain Dog
+   
