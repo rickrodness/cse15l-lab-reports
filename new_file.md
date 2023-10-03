@@ -5,6 +5,6 @@ We can also write in italics:  _Very Cool_
 1. Golden Retriever\
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/golden.jpg?raw=true)   \
 3. Labrador Retriever
-![Image] ()
+![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/choc_lab.jpg) \
 5. Bernese Mountain Dog
    
