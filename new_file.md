@@ -28,7 +28,7 @@
  
    - `ls` returned a list of all the files with the name `Hello.java`.
    - `cd` command with a file as an argument threw an error because the file is not a directory.
-   - `cat` with a file as the argument returned the contents of the file right on the command line..
+   - `cat` with a file as the argument returned the contents of the file right on the command line.
 
 
 
