@@ -1,26 +1,27 @@
-# Lab Report 1 
-This is an example of bold text: **Cool**\
-We can also write in italics:  _Very Cool_ 
+# Lab Report 1
+
+This is an example of bold text: **Cool**  
+We can also write in italics: _Very Cool_
+
 ## Remote Access and Filesystem
+
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_1.png)
-1. The working directory was /home when running the command
-ls we got the result lecture1 because the ls command lists all the files in current directory, 
-cd we got nothing because we are already inside the root directory named home
-cat allows for us to read and write directly to a file, it did not do anything because we fed it zero arguments.  
+
+1. The working directory was `/home` when running the command `ls`. We got the result `lecture1` because the `ls` command lists all the files in the current directory.
+   - `cd` returned nothing because we are already inside the root directory named `home`.
+   - `cat` allows us to read and write directly to a file. It did not do anything because we fed it zero arguments.
+
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_2.png)
 
+2. The working directory was `/home` when running the command `ls`. The result I got when using the command with a path to a directory was listing all the files inside `lecture1`.
+   - `cd` moved the working directory inside of `lecture1`.
+   - `cat` returned an error because `lecture1` is a directory, not a file we can read and write to.
 
-2. The working directory was /home when running the command
-ls the result I got when using the command with a path to a directory was listing all of the files inside of lecture1, 
-cd moved the working directory inside of lecture1
-cat returned an error because lecture1 is a directory not a file we can read and write to  
+![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)
 
-![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)    
-
-3. The working directory was /lecture1 when running the command
-ls it listed the files with the name “Hello.java”
-cd command with a file as an argument it through an error because the file is not a directory
-cat with a file as the argument it returned the contents of the file right on the command line
+3. The working directory was `/lecture1` when running the command `ls`. It listed the files with the name “Hello.java”.
+   - `cd` command with a file as an argument threw an error because the file is not a directory.
+   - `cat` with a file as the argument returned the contents of the file right on the command line.
 
 
 
