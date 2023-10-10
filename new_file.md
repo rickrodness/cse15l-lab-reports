@@ -28,7 +28,9 @@ We can also write in italics: _Very Cool_
 
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)
 
-3. The working directory was `/lecture1` when running the command `ls`. It listed the files with the name “Hello.java”.
+3. The working directory was `/lecture1` when running the command
+ 
+   - `ls` returned a list of all the files with the name `Hello.java`
    - `cd` command with a file as an argument threw an error because the file is not a directory.
    - `cat` with a file as the argument returned the contents of the file right on the command line.
 
