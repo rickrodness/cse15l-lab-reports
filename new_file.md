@@ -4,11 +4,11 @@ We can also write in italics:  _Very Cool_
 ## Remote Access and Filesystem
 1. \
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_1.png)
-
-![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_2.png)
 2. \
-![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)
+![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_2.png)
 3. \
+![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)
+
 
 
    
