@@ -15,7 +15,8 @@ ls the result I got when using the command with a path to a directory was listin
 cd moved the working directory inside of lecture1
 cat returned an error because lecture1 is a directory not a file we can read and write to  
 
-![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)  
+![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_3.png)    
+
 3. The working directory was /lecture1 when running the command
 ls it listed the files with the name “Hello.java”
 cd command with a file as an argument it through an error because the file is not a directory
