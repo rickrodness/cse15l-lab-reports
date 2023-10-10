@@ -7,7 +7,8 @@ We can also write in italics: _Very Cool_
 
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_1.png)
 
-1. The working directory was `/home` when running the command `ls`. We got the result `lecture1` because the `ls` command lists all the files in the current directory.
+1. The working directory was `/home`
+   - `ls` returned `lecture1` because the `ls` command lists all the files in the current directory
  
    - `cd` returned nothing because we are already inside the root directory named `home`.
    
@@ -17,6 +18,8 @@ We can also write in italics: _Very Cool_
 ![Image](https://github.com/rickrodness/cse15l-lab-reports/blob/main/CS15L_2.png)
 
 2. The working directory was `/home` when running the command `ls`. The result I got when using the command with a path to a directory was listing all the files inside `lecture1`.
+   - 
+   - `ls` returned `Hello.class Hello.java messages` because the `ls` command lists all the files inside of the directory `lecture1`. 
  
    - `cd` moved the working directory inside of `lecture1`.
      
