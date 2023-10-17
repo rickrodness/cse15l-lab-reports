@@ -4,7 +4,7 @@
 ![Image](CS15L_1.png)
 
 1. The working directory was `/home` when running the following commands: 
-   - `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. 
+   - `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. In this case, the directory was `/home` so it listed the only directory inside of home which was `lecture1`. Lastly, no error occurred since the output is what I would expect since `lecture1` is the only visible item inside of the current working directory. 
  
    - `cd` returned nothing because we are already inside the root directory named `home`.
    
