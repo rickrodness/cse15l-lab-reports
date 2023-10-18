@@ -19,7 +19,8 @@
  
    - `cd` moved the working directory inside of `lecture1`. No error ocurred. 
      
-   - `cat` returned an error because `lecture1` is a directory, not a file we can read and write to. An error occured, this error is because `cat` is a command used to display the content of a file and returned an error since lecture1 is a directory. 
+![Image](unnamed.png)
+   - `cat` without any arguments does not display anything because it requires a file to read from. No error occured. It seemed to echo back whatever I typed after back to the terminal. This is because `cat` is reading from the keyboard and echoing my inputs to the screen. 
      
 
 ![Image](CS15L_3.png)
@@ -29,7 +30,6 @@
    - `ls` returned a list of all the files with the name `Hello.java`. No error occured. 
    - `cd` command with a file as an argument threw an error because the file is not a directory. An error occured becaise the file is not a directory we can move to, cd is for changing to a different directory. 
    - `cat` with a file as the argument returned the contents of the file right on the command line. No error occured. 
-
 
 
 
