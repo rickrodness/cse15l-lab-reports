@@ -4,9 +4,11 @@
 ![Image](CS15L_1.png)
 
 1. The working directory was `/home` when running the following commands: 
-   - `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. In this case, the directory was `/home` so it listed the only directory inside of home which was `lecture1`. Lastly, no error occurred since the output is what I would expect since `lecture1` is the only visible item inside of the current working directory. 
+   - `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. In this case, the directory was `/home` so it listed the only directory inside of home which was `lecture1`. Lastly, no error occurred since the output is what I would expect since `lecture1` is the only visible item inside of the current working directory.
+  
+![Image](image_1.png)
  
-   - `cd` returned nothing because we are already inside the root directory named `home`. No error occured. 
+   - `cd` returned nothing because we are already inside the root directory named `home`. No error occured.
    
    - `cat` with zero arguements did not produce any output because it did not have a file to read or write to. No error occured. 
      
