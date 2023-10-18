@@ -6,29 +6,29 @@
 1. The working directory was `/home` when running the following commands: 
    - `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. In this case, the directory was `/home` so it listed the only directory inside of home which was `lecture1`. Lastly, no error occurred since the output is what I would expect since `lecture1` is the only visible item inside of the current working directory. 
  
-   - `cd` returned nothing because we are already inside the root directory named `home`.
+   - `cd` returned nothing because we are already inside the root directory named `home`. No error occured. 
    
-   - `cat` allows us to read and write directly to a file. It did not do anything because we fed it zero arguments.
+   - `cat` with zero arguements did not produce any output because it did not have a file to read or write to. No error occured. 
      
 
 ![Image](CS15L_2.png)
 
 2. The working directory was `/home` when running the following commands:
  
-   - `ls` returned `Hello.class Hello.java messages` because the `ls` command lists all the files inside of the directory `lecture1`. 
+   - `ls` returned `Hello.class Hello.java messages` because the `ls` command lists all the files inside of the directory `lecture1`. No error occured. 
  
-   - `cd` moved the working directory inside of `lecture1`. 
+   - `cd` moved the working directory inside of `lecture1`. No error ocurred. 
      
-   - `cat` returned an error because `lecture1` is a directory, not a file we can read and write to. 
+   - `cat` returned an error because `lecture1` is a directory, not a file we can read and write to. An error occured, this error is because `cat` is a command used to display the content of a file and returned an error since lecture1 is a directory. 
      
 
 ![Image](CS15L_3.png)
 
 3. The working directory was `/lecture1` when running the following commands: 
  
-   - `ls` returned a list of all the files with the name `Hello.java`.
-   - `cd` command with a file as an argument threw an error because the file is not a directory.
-   - `cat` with a file as the argument returned the contents of the file right on the command line.
+   - `ls` returned a list of all the files with the name `Hello.java`. No error occured. 
+   - `cd` command with a file as an argument threw an error because the file is not a directory. An error occured becaise the file is not a directory we can move to, cd is for changing to a different directory. 
+   - `cat` with a file as the argument returned the contents of the file right on the command line. No error occured. 
 
 
 
