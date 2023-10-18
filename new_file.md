@@ -11,7 +11,7 @@
 
 ![Image](unnamed.png)
 
-      c. `cat` without any arguments does not display anything because it requires a file to read from. No error occurred. It seemed to respond back whatever I typed after back to the terminal. This is because `cat` is reading from the keyboard and echoing my inputs to the screen.
+   c. `cat` without any arguments does not display anything because it requires a file to read from. No error occurred. It seemed to respond back whatever I typed after back to the terminal. This is because `cat` is reading from the keyboard and echoing my inputs to the screen.
 
 2. The working directory was `/home` when running the following commands:
 
