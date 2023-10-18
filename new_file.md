@@ -20,7 +20,7 @@
    - `cd` moved the working directory inside of `lecture1`. No error ocurred. 
      
 ![Image](unnamed.png)
-   - `cat` without any arguments does not display anything because it requires a file to read from. No error occured. It seemed to echo back whatever I typed after back to the terminal. This is because `cat` is reading from the keyboard and echoing my inputs to the screen. 
+   - `cat` without any arguments does not display anything because it requires a file to read from. No error occured. It seemed to respond back whatever I typed after back to the terminal. This is because `cat` is reading from the keyboard and echoing my inputs to the screen. 
      
 
 ![Image](CS15L_3.png)
