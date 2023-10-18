@@ -1,9 +1,8 @@
 # Lab Report 1
 ## Remote Access and Filesystem
-
-![Image](CS15L_1.png)
-
 ### 1. The working directory was `/home` when running the following commands:
+
+![Image](CS15L_1.png)  
 
    a. `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. In this case, the directory was `/home`, so it listed the only directory inside of home, which was `lecture1`. No error occurred since the output is what I would expect, as `lecture1` is the only visible item inside the current working directory.
 
