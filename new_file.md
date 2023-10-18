@@ -3,7 +3,7 @@
 
 ![Image](CS15L_1.png)
 
-1. The working directory was `/home` when running the following commands:
+### 1. The working directory was `/home` when running the following commands:
 
    a. `ls` returned `lecture1` because the `ls` command lists all the files in the current directory. In this case, the directory was `/home`, so it listed the only directory inside of home, which was `lecture1`. No error occurred since the output is what I would expect, as `lecture1` is the only visible item inside the current working directory.
 
@@ -13,7 +13,7 @@
 
    c. `cat` without any arguments does not display anything because it requires a file to read from. No error occurred. It seemed to respond back whatever I typed after back to the terminal. This is because `cat` is reading from the keyboard and echoing my inputs to the screen.
 
-2. The working directory was `/home` when running the following commands:
+### 2. The working directory was `/home` when running the following commands:
 
 ![Image](image_1.png)
 
@@ -27,7 +27,7 @@
 
    c. `cat` with `lecture1` as an argument prompted the user that `lecture1` is a directory, not a file we can read or write to. An error did occur when calling the `cat` command with a directory; this is not allowed.
 
-3. The working directory was `/lecture1` when running the following commands:
+### 3. The working directory was `/lecture1` when running the following commands:
 
 ![Image](image_4.png)
 
