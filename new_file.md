@@ -4,12 +4,10 @@
 This lab report documents the results of various commands executed in the context of remote access and the filesystem. It includes observations and explanations for each command's output.
 
 ## Section 1: Working Directory - `/home`
- 
- ![Image](CS15L_1.png)
 
 ### Command 1: `ls`  
 - **Output:** `lecture1`
-
+ ![Image](CS15L_1.png)
 - **Description:** The `ls` command lists all files in the current directory. In this case, the current directory is `/home`, so it displayed `lecture1`. No errors occurred, as this is the expected output when `lecture1` is the only visible item in the working directory.
 
 ### Command 2: `cd`
@@ -25,12 +23,12 @@ This lab report documents the results of various commands executed in the contex
 ### Command 1: `ls`
 ![Image](image_1.png)
 - **Output:** `Hello.class Hello.java messages README`
-- **Description:** The `ls` command lists all files inside the directory `lecture1`. It returned `Hello.class Hello.java messages` as the output, with no errors.
+- **Description:** The `ls` command lists all files inside the directory `lecture1`. It returned `Hello.class Hello.java messages README` as the output because those are the files inside `lecture1`. No errors occurred.
 
 ### Command 2: `cd`
 ![Image](image_2.png)
 - **Output:** None
-- **Description:** Executing `cd` moved the working directory inside `lecture1` with no errors.
+- **Description:** Executing `cd` moved the working directory inside `lecture1` and did so with no errors.
 
 ### Command 3: `cat`
 ![Image](image_3.png)
