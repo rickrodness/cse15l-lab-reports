@@ -24,7 +24,7 @@ This lab report documents the results of various commands executed in the contex
 
 ### Command 1: `ls`
 ![Image](image_1.png)
-- **Output:** `Hello.class Hello.java messages`
+- **Output:** `Hello.class Hello.java messages README`
 - **Description:** The `ls` command lists all files inside the directory `lecture1`. It returned `Hello.class Hello.java messages` as the output, with no errors.
 
 ### Command 2: `cd`
