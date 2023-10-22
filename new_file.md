@@ -18,9 +18,8 @@ This lab report documents the results of various commands executed in the contex
 
 ### Command 3: `cat`
 ![Image](unnamed.png)
-- **Output:** No output displayed
-- **Description:** Running `cat` without any arguments does not display anything because it requires a file to read from. No errors occurred. The terminal seemed to echo back user inputs, as `cat` reads from the keyboard.
-
+- **Output:** The terminal seemed to echo back user inputs, as `cat` reads from the keyboard.
+- **Description:** Running `cat` without any arguments does not display anything because it requires a file to read from. No errors occurred. 
 ## Section 2: Working Directory - `/home/lecture1`
 
 ### Command 1: `ls`
