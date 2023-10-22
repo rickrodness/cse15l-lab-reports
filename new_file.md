@@ -2,7 +2,8 @@
 
 ## Introduction
 This lab report documents the results of different Linux commands and navigating the filesystem.  
-The following documents my observations and explanations for each command's output.
+  
+  The following documents my observations and explanations for each command's output.
 
 ## Section 1: Working Directory - `/home`
  ![Image](CS15L_1.png)
