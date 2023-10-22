@@ -13,7 +13,6 @@ This lab report documents the results of various commands executed in the contex
 - **Description:** The `ls` command lists all files in the current directory. In this case, the current directory is `/home`, so it displayed `lecture1`. No errors occurred, as this is the expected output when `lecture1` is the only visible item in the working directory.
 
 ### Command 2: `cd`
-![Image](image_2.png)
 - **Output:** None
 - **Description:** The `cd` command changes the directory. Since we are already in the root directory named `/home`, executing `cd` does not produce any output, and no errors occurred.
 
