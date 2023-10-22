@@ -35,7 +35,7 @@ This lab report documents the results of various commands executed in the contex
 ### Command 3: `cat`
 ![Image](image_3.png)
 - **Output:** Error message
-- **Description:** Running `cat` with `lecture1` as an argument prompted an error message indicating that `lecture1` is a directory, not a file that can be read or written to. An error occurred because `cat` cannot be used on directories.
+- **Description:** Running `cat` with `lecture1` as an argument prompted an error message because `lecture1` is a directory, not a file that can be read or written to. 
 
 ## Section 3: Working Directory - `/lecture1`
 
