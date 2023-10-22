@@ -6,8 +6,9 @@ This lab report documents the results of various commands executed in the contex
 ## Section 1: Working Directory - `/home`
  
   
+
+### Command 1: `ls`  
 ![Image](image_1.png) 
-### Command 1: `ls`
 - **Output:** `lecture1`
 
 - **Description:** The `ls` command lists all files in the current directory. In this case, the current directory is `/home`, so it displayed `lecture1`. No errors occurred, as this is the expected output when `lecture1` is the only visible item in the working directory.
