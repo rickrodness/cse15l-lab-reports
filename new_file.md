@@ -4,6 +4,7 @@
 This lab report documents the results of various commands executed in the context of remote access and the filesystem. It includes observations and explanations for each command's output.
 
 ## Section 1: Working Directory - `/home`
+![Image](image_1.png)  
 
 ### Command 1: `ls`
 - **Output:** `lecture1`
