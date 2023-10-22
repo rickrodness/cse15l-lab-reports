@@ -54,7 +54,7 @@
 - **Description:** Running `cat` with a file as the argument displayed the contents of the file on the command line with no errors.
 
 ## Conclusion
-This lab report provides insights into the behavior of various commands when used in different working directories. I found it helpful in illustrating the filesystem and learning how to use different commands in a Linux environment.
+- This lab report provides insights into the behavior of various commands when used in different working directories. I found it helpful in illustrating the filesystem and learning how to use different commands in a Linux environment.
 
 
 
