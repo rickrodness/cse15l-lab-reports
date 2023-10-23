@@ -61,7 +61,7 @@ class StringServer {
         Server.start(port, new StringHandler());
     }
 }
-
+```
 
 ![Lab Report 2 Image 1](lab-report-2-1.png)
 - Which methods in your code are called? 
