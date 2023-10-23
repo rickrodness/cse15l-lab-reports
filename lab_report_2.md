@@ -43,7 +43,7 @@ class StringHandler implements URLHandler {
 ```
 
 ## StringServer
-- StringServer is the main entry point of the application. It takes a port number as an argument and then starts the server on the provided port using the StringHandler to process requests. 
+- `StringServer` is the main entry point of the application. It takes a port number as an argument and then starts the server on the provided port using the StringHandler to process requests. 
 
 ```java
 class StringServer {
