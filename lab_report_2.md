@@ -17,12 +17,6 @@ class StringHandler implements URLHandler {
     // counter to keep track of the number of messages added
     private int messageCounter = 0;
 
-
-    /**
-     * handleRequest handles incoming URI requests.
-     * takes url of the request as parameter
-     * returns response string based on the request
-     */
     public String handleRequest(URI url) {
         // Check if the path is "/add-message"
         if (url.getPath().equals("/add-message")) {
