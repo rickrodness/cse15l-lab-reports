@@ -18,25 +18,25 @@ class StringHandler implements URLHandler {
     private int messageCounter = 0;
 
     public String handleRequest(URI url) {
-        // Check if the path is "/add-message"
-        if (url.getPath().equals("/add-message")) {
-            // Extract the query from the URI
+        
+        if (url.getPath().equals("/add-message")) { // check if the path is "/add-message"
+            // get query from the URI
             String query = url.getQuery();
             
-            // Check if the query starts with "s="
+            // check if the query starts with "s="
             if (query != null && query.startsWith("s=")) {
-                // Extract the message after "s=" from the query
+                // get the message after "s=" from the query
                 String message = query.substring(2);
                 
                 messageCounter++;
                 
-                // Append the message to the builder with its order number
+                // append the message to the builder with its list number
                 messageBuilder.append(messageCounter).append(". ").append(message).append("\n");
                 
                 return messageBuilder.toString();
             }
         }
-        // Return a 404 error message if the path doesn't match or the query is invalid
+        // return 404 error message if the path doesn't match or the query is invalid
         return "404 Not Found!";
     }
 }
@@ -54,10 +54,10 @@ class StringServer {
             return;
         }
 
-        // Parse the port number from the arguments
+        // parse the port number from the arguments
         int port = Integer.parseInt(args[0]);
 
-        // Start the server on the specified port with a new `StringHandler` instance
+        // start the server on the specified port with a new `StringHandler` instance
         Server.start(port, new StringHandler());
     }
 }
