@@ -66,5 +66,3 @@ class StringServer {
 ![Lab Report 2 Image 1](lab-report-2-1.png)
 ![Lab Report 2 Image 2](lab-report-2-pic-2.jpg)
 ```
-
-By removing the extra spaces before the image references, the images will be displayed as regular images in your markdown document.
