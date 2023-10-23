@@ -62,4 +62,10 @@ class StringHandler implements URLHandler {
         Server.start(port, new StringHandler());
     }
 
-``` 
+```
+
+[!Image](lab-report-2-1.png)
+
+
+[!Image](lab-report-2-pic-2.jpg)
+
