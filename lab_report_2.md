@@ -63,6 +63,7 @@ class StringServer {
 }
 ```
 
+  
 ![Lab Report 2 Image 1](lab-report-2-1.png)
 - Which methods in your code are called? 
     - The methods called during this execution was the `handleRequest` method in the `StringHandler` class when called.
