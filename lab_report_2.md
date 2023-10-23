@@ -1,5 +1,5 @@
 # Lab Report 2: Servers and SSH Keys
-### StringServer Code
+### StringServer Code:
 
 ```java
 import java.io.IOException;
