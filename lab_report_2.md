@@ -104,7 +104,7 @@ class StringServer {
 - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
  
 
-  ![Lab Report 2 Image 2](lab-report-2-4.png)
+  ![Lab Report 2 Image 2](lab-2-last-2.png)
  
 
 ## Part 3 
