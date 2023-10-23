@@ -61,7 +61,7 @@ class StringServer {
         Server.start(port, new StringHandler());
     }
 }
-```
+
 
 ![Lab Report 2 Image 1](lab-report-2-1.png)
 - Which methods in your code are called? 
@@ -78,7 +78,7 @@ class StringServer {
   
   ![Lab Report 2 Image 2](lab-report-2-pic-2.jpg)
 
-    - Which methods in your code are called? 
+- Which methods in your code are called? 
     - The methods called during this execution was the `handleRequest` method in the `StringHandler` class when called.
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
     - `url` argument being type URI which represents the URL of the http request.
