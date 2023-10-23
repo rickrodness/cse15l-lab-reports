@@ -46,7 +46,7 @@ class StringHandler implements URLHandler {
     }
 }
 
-```
+
 ## StringServer
 - StringServer is the main point of the application. It takes a port number as an argument and starts the server on the provided port using the StringHandler to process requests.
 
@@ -66,6 +66,5 @@ class StringHandler implements URLHandler {
         // Start the server on the specified port with a `StringHandler` instance
         Server.start(port, new StringHandler());
     }
-}
-```
+
 
