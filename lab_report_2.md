@@ -87,4 +87,15 @@ class StringServer {
     - `messageCounter` is incremented to keep track of the number of messages.
  -  How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
     - The value of `messageCounter` increments each time to keep track of the number of messages added.
-    - `messageBuilder` appends a new number and message to the list of messages.
+    - `messageBuilder` appends a new number and message to the list of messages so tthe list of numbers and strings change.
+  
+## Part 2 
+
+- Using the command line, show with `ls` and take screenshots of:
+    - The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+ 
+  
+    - The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+ 
+  
+    - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
