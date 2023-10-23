@@ -45,9 +45,8 @@ class StringHandler implements URLHandler {
 ## StringServer
 - StringServer is the main entry point of the application. It takes a port number as an argument and then starts the server on the provided port using the StringHandler to process requests. 
 
-
-  ```java
-  class StringServer {
+```java
+class StringServer {
     public static void main(String[] args) throws IOException {
         // Check if a port number is provided
         if (args.length == 0) {
@@ -61,11 +60,11 @@ class StringHandler implements URLHandler {
         // Start the server on the specified port with a new `StringHandler` instance
         Server.start(port, new StringHandler());
     }
+}
+```
 
-  ```
+![Lab Report 2 Image 1](lab-report-2-1.png)
+![Lab Report 2 Image 2](lab-report-2-pic-2.jpg)
+```
 
-[!Image](lab-report-2-1.png)
-
-
-[!Image](lab-report-2-pic-2.jpg)
-
+By removing the extra spaces before the image references, the images will be displayed as regular images in your markdown document.
