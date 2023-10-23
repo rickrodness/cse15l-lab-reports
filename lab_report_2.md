@@ -72,5 +72,8 @@ class StringServer {
     - `messageCounter` is incremented to keep track of the number of messages.
  -  How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
     - The value of `messageCounter` increments each time to keep track of the number of messages added.
-    - `messageBuilder` appends a new number and message to the list of messages.     
-![Lab Report 2 Image 2](lab-report-2-pic-2.jpg)
+    - `messageBuilder` appends a new number and message to the list of messages.
+  
+   
+  
+  ![Lab Report 2 Image 2](lab-report-2-pic-2.jpg)
