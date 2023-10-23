@@ -58,7 +58,7 @@ class StringHandler implements URLHandler {
         // Parse the port number from the arguments
         int port = Integer.parseInt(args[0]);
 
-        // Start the server on the specified port with a `StringHandler` instance
+        // Start the server on the specified port with a new `StringHandler` instance
         Server.start(port, new StringHandler());
     }
 
