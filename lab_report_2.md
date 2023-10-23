@@ -6,7 +6,9 @@ This program consists of two primary classes: `StringHandler` and `StringServer`
 
 ## StringHandler
 
-`StringHandler` is an implementation of the `URLHandler` interface. Its primary function is to handle URI requests, specifically those with the path "/add-message", and build a message string using the query parameter.
+- `StringHandler` is an implementation of the `URLHandler` interface
+- Its primary function is to handle URI requests with the path "/add-message"
+- Then build a message string using the query parameter
 
 ```java
 class StringHandler implements URLHandler {
