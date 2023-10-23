@@ -99,3 +99,8 @@ class StringServer {
  
   
     - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+ 
+
+## Part 3 
+- In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+    -  
