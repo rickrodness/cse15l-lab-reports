@@ -64,5 +64,6 @@ class StringServer {
 ```
 
 ![Lab Report 2 Image 1](lab-report-2-1.png)
+
+
 ![Lab Report 2 Image 2](lab-report-2-pic-2.jpg)
-```
