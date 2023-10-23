@@ -102,5 +102,7 @@ class StringServer {
  
 
 ## Part 3 
+
+  
 - In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
     -  
