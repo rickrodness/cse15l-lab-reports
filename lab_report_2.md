@@ -110,4 +110,4 @@ class StringServer {
 ## Part 3 
 
 - In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
-    -  I learned a lot from this lab that I did not know before
+    -  During the course of this lab I gained a lot of valuable knowledge in many key areas of web servers, ssh key setup, java server programming, and URI handling. I also learned about the HTTP protocol, which is the foundation of communication between web clients and servers which I found to be very interesting and never knew before. Also, I would consider valuable is the practical skills I honed with command line commands in Linux and learning to navigate the filesystem. One reason I learned that we need to know how to navigate the filesystem is because we will not always have a display to look at, sometimes we will be accessing servers and collections of remote access computers where there is no display. 
