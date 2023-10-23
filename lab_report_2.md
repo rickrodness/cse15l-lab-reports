@@ -1,7 +1,6 @@
 # Lab Report 2: Servers and SSH Keys
-### StringServer Code:
-# StringServer - Lab Report 2
 
+### StringServer Code:
 This program consists of two primary classes: `StringHandler` and `StringServer`.
 
 ## StringHandler
