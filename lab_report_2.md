@@ -98,7 +98,8 @@ class StringServer {
     ![Lab Report 2 Image 2](lab-report-2-part-3.png)
   
     - The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
-
+    ![Lab Report 2 Image 2](lab-2-last.png)
+    - `/home/linux/ieng6/cs15lfa23/cs15lfa23ew/.ssh`
   
     - A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
  
