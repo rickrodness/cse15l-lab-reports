@@ -73,15 +73,15 @@ for(int i = 0; i < arr.length; i += 1) {
 
 
 **Explanation:** Searches for the string "whole" in `quote1.txt` ignoring case sensitivity 
-- Useful for finding matches regardless of how the text is capitalized.
+- Useful for finding matches regardless of how the text is capitalized
 
 **Example 2:**
 
 ![Image](grep2.png)  
 
 
-**Explanation:** Look for the word "loving" in `quote2.txt` with case-insensitively
-- Useful when you're unsure of the text's capitalization.
+**Explanation:** Look for the word "loving" in `quote2.txt` 
+- Useful when you're unsure of the text's capitalization
 
 ### Option -c (Count)
 
@@ -91,7 +91,7 @@ for(int i = 0; i < arr.length; i += 1) {
 
 
 **Explanation:** Counts the number of times "dog" appears in `quote3.txt` 
-- Useful to quantify the number of occurrences of the word.
+- Useful to quantify the number of occurrences of the word
 
 **Example 2:**
 
@@ -126,7 +126,7 @@ for(int i = 0; i < arr.length; i += 1) {
 
 
 **Explanation:** Highlights the term "life" in the output from `dog_happiness.txt` 
-- Allows for highlighting specific word making it easier to spot
+- Allows for highlighting specific words making it easier to spot
 
 **Example 2:**
 
