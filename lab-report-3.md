@@ -24,7 +24,7 @@ public void testReverseInPlaceSuccess() {
 }
 
 ```
-**Tests that fail**
+**Tests**
 
 ![Image](lab-3-1.png)
 
