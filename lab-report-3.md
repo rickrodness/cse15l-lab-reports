@@ -26,10 +26,10 @@ public void testReverseInPlaceSuccess() {
 ```
 **Tests that fail**
 
-[!Image](lab-3-1.png)
+![Image](lab-3-1.png)
 
 
-[!Image](lab-report-3-2.png)
+![Image](lab-report-3-2.png)
 
 **Before**
 ```java
