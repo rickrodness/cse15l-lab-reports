@@ -34,16 +34,14 @@ When the `testReverseInPlaceFailure` test case is run, it is expected to reverse
 
 The symptom of the bug manifests as a failed assertion in the JUnit test case, indicating that the expected output (a reversed array) does not match the actual output (the original, unchanged array).
 
+
+![Image](lab-report-3-2.png)
+
 ### Symptom of `reversed` Method Bug
 
 The `reversed` method is supposed to return a new array with the elements of the original array in reverse order. However, due to the bug, the returned array contains all zeros. This happens because the elements of the `newArray` are never actually assigned from `arr`. Instead, the method erroneously attempts to modify the original `arr` which is not only incorrect but also does not change `newArray`.
 
 The symptom is observed as a failing test case where the expected reversed array does not match the actual returned array, which consists of all zeros.
-
-
-![Image](lab-report-3-2.png)
-
-
 
 **Before**
 ```java
