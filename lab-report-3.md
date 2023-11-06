@@ -2,7 +2,7 @@
 
 ## Part 1 - Bugs
 
-### Bug in `reverseInPlace` Method
+### Bug in `reverseInPlace` from Lab 4 
 
 #### Failure-Inducing Input
 
