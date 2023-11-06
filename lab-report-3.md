@@ -11,7 +11,7 @@
 public void testReverseInPlaceFailure() {
   int[] original = {1, 2, 3, 4, 5};
   ArrayExamples.reverseInPlace(original);
-  assertArrayEquals(new int[]{5, 4, 3, 2, 1}, original); // This will fail with the original code.
+  assertArrayEquals(new int[]{5, 4, 3, 2, 1}, original); // This will fail 
 }
 ```
 ### Non-Failure-Inducing Input
@@ -20,12 +20,16 @@ public void testReverseInPlaceFailure() {
 public void testReverseInPlaceSuccess() {
   int[] original = {1, 2, 3, 4, 5};
   ArrayExamples.reverseInPlace(original);
-  assertArrayEquals(new int[]{1, 2, 3, 4, 5}, original); // Incorrect test that would pass mistakenly.
+  assertArrayEquals(new int[]{1, 2, 3, 4, 5}, original); // Incorrect test that passes
 }
-```
-**Symptom**
 
-[!Image]()
+```
+**Tests that fail**
+
+[!Image](lab-3-1.png)
+
+
+[!Image](lab-report-3-2.png)
 
 **Before**
 ```java
