@@ -50,6 +50,7 @@ for(int i = 0; i < arr.length; i += 1) {
 }
 ```
 - In the original reversed method, the assignment was incorrectly updating the input array arr instead of the new array newArray. This led to the unexpected change of arr and the newArray not updating.
+  
 **After Code Change**  
 
 ```java
