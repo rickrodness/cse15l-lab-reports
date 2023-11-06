@@ -69,17 +69,15 @@ for(int i = 0; i < arr.length; i += 1) {
 
 **Example 1:**
 
-```bash
-grep -i "dog" ./quotes/dog_quotes.txt
-```
+![Image](grep1.png)  
+
 
 **Explanation:** Searches for the string "dog" in `dog_quotes.txt` ignoring case sensitivity. Useful for finding matches regardless of how the text is capitalized.
 
 **Example 2:**
 
-```bash
-grep -i "loyal" ./quotes/canine_admiration.txt
-```
+![Image](grep2.png)  
+
 
 **Explanation:** Looks for the word "loyal" in `canine_admiration.txt`, case-insensitively. This helps when you're unsure of the text's capitalization.
 
@@ -87,17 +85,15 @@ grep -i "loyal" ./quotes/canine_admiration.txt
 
 **Example 1:**
 
-```bash
-grep -c "friend" ./quotes/dog_friendship.txt
-```
+![Image](grep3.png)  
+
 
 **Explanation:** Counts the number of times "friend" appears in `dog_friendship.txt`. It quantifies the mention of friendship related to dogs.
 
 **Example 2:**
 
-```bash
-grep -c "companion" ./quotes/dog_companionship.txt
-```
+![Image](grep4.png)  
+
 
 **Explanation:** Gives the count of the word "companion" in `dog_companionship.txt`. Useful for understanding the frequency of certain words.
 
@@ -105,17 +101,15 @@ grep -c "companion" ./quotes/dog_companionship.txt
 
 **Example 1:**
 
-```bash
-grep -r "puppy" ./quotes/
-```
+![Image](grep5.png)  
+
 
 **Explanation:** Recursively searches for "puppy" in all files within the `./quotes` directory. It allows searching through multiple files at once.
 
 **Example 2:**
 
-```bash
-grep -r "best friend" ./quotes/
-```
+![Image](grep6.png)  
+
 
 **Explanation:** Searches for the phrase "best friend" throughout all files in the `./quotes` directory recursively. It's useful for finding phrases in a large collection of documents.
 
@@ -123,17 +117,15 @@ grep -r "best friend" ./quotes/
 
 **Example 1:**
 
-```bash
-grep --color "happy" ./quotes/dog_happiness.txt
-```
+![Image](grep7.png)  
+
 
 **Explanation:** Highlights the term "happy" in the output from `dog_happiness.txt`, making it easier to spot.
 
 **Example 2:**
 
-```bash
-grep --color "playful" ./quotes/puppy_playtime.txt
-```
+![Image](grep8.png)  
+
 
 **Explanation:** Highlights "playful" in `puppy_playtime.txt`, useful for quickly locating the word in the text output.
 
