@@ -43,7 +43,7 @@ The `reversed` method is supposed to return a new array with the elements of the
 
 The symptom is observed as a failing test case where the expected reversed array does not match the actual returned array, which consists of all zeros.
 
-**Before Code Change**
+**Before Code Change:**
 ```java
 for(int i = 0; i < arr.length; i += 1) {
   arr[i] = newArray[arr.length - i - 1];
@@ -51,7 +51,7 @@ for(int i = 0; i < arr.length; i += 1) {
 ```
 - In the original reversed method, the assignment was incorrectly updating the input array arr instead of the new array newArray. This led to the unexpected change of arr and the newArray not updating.
   
-**After Code Change**  
+**After Code Change:**  
 
 ```java
 for(int i = 0; i < arr.length; i += 1) {
