@@ -125,7 +125,7 @@ for(int i = 0; i < arr.length; i += 1) {
 ![Image](grep7.png)  
 
 
-**Explanation:** Highlights the term "life" in the output from `dog_happiness.txt` 
+**Explanation:** Highlights the term "life" in the output from `quote1.txt` 
 - Allows for highlighting specific words making it easier to spot
 
 **Example 2:**
@@ -133,7 +133,7 @@ for(int i = 0; i < arr.length; i += 1) {
 ![Image](grep8.png)  
 
 
-**Explanation:** Highlights "playful" in `puppy_playtime.txt` making it easier to find 
+**Explanation:** Highlights "speak" in `quote4.txt` making it easier to find 
 
 
 ### Works Cited: 
