@@ -72,14 +72,16 @@ for(int i = 0; i < arr.length; i += 1) {
 ![Image](grep1.png)  
 
 
-**Explanation:** Searches for the string "dog" in `dog_quotes.txt` ignoring case sensitivity. Useful for finding matches regardless of how the text is capitalized.
+**Explanation:** Searches for the string "whole" in `quote1.txt` ignoring case sensitivity 
+- Useful for finding matches regardless of how the text is capitalized.
 
 **Example 2:**
 
 ![Image](grep2.png)  
 
 
-**Explanation:** Looks for the word "loyal" in `canine_admiration.txt`, case-insensitively. This helps when you're unsure of the text's capitalization.
+**Explanation:** Look for the word "loving" in `quote2.txt` with case-insensitively
+- Useful when you're unsure of the text's capitalization.
 
 ### Option -c (Count)
 
@@ -88,14 +90,15 @@ for(int i = 0; i < arr.length; i += 1) {
 ![Image](grep3.png)  
 
 
-**Explanation:** Counts the number of times "friend" appears in `dog_friendship.txt`. It quantifies the mention of friendship related to dogs.
+**Explanation:** Counts the number of times "dog" appears in `quote3.txt` 
+- Useful to quantify the number of occurrences of the word.
 
 **Example 2:**
 
 ![Image](grep4.png)  
 
 
-**Explanation:** Gives the count of the word "companion" in `dog_companionship.txt`. Useful for understanding the frequency of certain words.
+**Explanation:** Gives the count of the word "dog" in `quote1.txt` 
 
 ### Option -r (Recursive)
 
@@ -104,14 +107,16 @@ for(int i = 0; i < arr.length; i += 1) {
 ![Image](grep5.png)  
 
 
-**Explanation:** Recursively searches for "puppy" in all files within the `./quotes` directory. It allows searching through multiple files at once.
+**Explanation:** Recursively searches for "earth" in all files within the `./quotes` directory 
+- Allows for searching through multiple files at once 
 
 **Example 2:**
 
 ![Image](grep6.png)  
 
 
-**Explanation:** Searches for the phrase "best friend" throughout all files in the `./quotes` directory recursively. It's useful for finding phrases in a large collection of documents.
+**Explanation:** Searches for the phrase "money" throughout all files in the `./quotes` directory
+- Useful for finding phrases in a large collection of documents
 
 ### Option --color (Color match)
 
@@ -120,13 +125,20 @@ for(int i = 0; i < arr.length; i += 1) {
 ![Image](grep7.png)  
 
 
-**Explanation:** Highlights the term "happy" in the output from `dog_happiness.txt`, making it easier to spot.
+**Explanation:** Highlights the term "life" in the output from `dog_happiness.txt` 
+- Allows for highlighting specific word making it easier to spot
 
 **Example 2:**
 
 ![Image](grep8.png)  
 
 
-**Explanation:** Highlights "playful" in `puppy_playtime.txt`, useful for quickly locating the word in the text output.
+**Explanation:** Highlights "playful" in `puppy_playtime.txt` making it easier to find 
+
+
+### Works Cited: 
+
+[FreeCodeCamp Grep](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/)
+
 
 
