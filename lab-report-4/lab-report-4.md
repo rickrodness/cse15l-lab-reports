@@ -1,5 +1,5 @@
 # Lab Report 4 - Vim 
---- 
+
 ## Lab Report Steps
 
 ### Step 4: Log into ieng6
