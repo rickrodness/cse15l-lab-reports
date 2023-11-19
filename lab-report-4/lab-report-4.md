@@ -9,7 +9,7 @@
 
 ### Step 5: Clone Your Fork from GitHub
 - **Action**: Clone lab7 repository from github
-- **Keys pressed**: `git clone https://github.com/ucsd-cse15l-s23/lab7`  `<enter>`
+- **Keys pressed**: `git clone` `<CTRL + V>` `https://github.com/ucsd-cse15l-s23/lab7`  `<enter>`
 ![Image](git-clone.png)
 - **Effect**: Clones the lab7 repository from GitHub to ieng6 machine
 
