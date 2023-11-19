@@ -39,7 +39,8 @@
 ### Step 9: Commit and Push the Changes
 - **Action**: Commit and push the changes to your GitHub repository.
 - **Keys pressed**: 
-    - `git add .` `<enter>`  
+    - `git status` `<enter>`
+    - `git add ListExamples.java` `<enter>`   
     - `git commit -m "First Commit"` `<enter>`
     - `git push` `<enter>`
  ![Image](git-commit.png)
