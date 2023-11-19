@@ -34,7 +34,7 @@
 - **Action**: Rerun the tests to show they now succeed.
 - **Keys pressed**: ` bash test.sh` `<enter>`
 ![Image](test-pass.jpg)
-- **Effect**: Reruns the tests, which should now pass. Use the same command as in Step 6.
+- **Effect**: Reruns the tests, which should now pass. Uses the same command as in Step 6.
 
 ### Step 9: Commit and Push the Changes
 - **Action**: Commit and push the changes to your GitHub repository.
