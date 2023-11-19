@@ -8,6 +8,4 @@
 
 [Lab Report 3](https://rickrodness.github.io/cse15l-lab-reports/lab-report-3/lab3)
 
-
-
 [Lab Report 4](https://rickrodness.github.io/cse15l-lab-reports/lab-report-4/lab-report-4)
