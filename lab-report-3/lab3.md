@@ -88,8 +88,10 @@ instructions I gave authorization for them to be taken out. Hello?
 --- 
 ## **Example 2:** 
 
-**Input:** `grep -n "Abuse" ./technical/government/Media/*.txt`
-**Output**:
+**Input:** `grep -n "Abuse" ./technical/government/Media/*.txt`  
+
+**Output**:  
+
 ```./technical/government/Media/Abuse_penalties.txt:5: Abuse penalties questioned
 ./technical/government/Media/Abuse_penalties.txt:14: In 2001, county judges heard 98 Protection From Abuse cases,
 ./technical/government/Media/Abuse_penalties.txt:29: Are we sending those who repeatedly violate Protection From Abuse
@@ -97,7 +99,6 @@ instructions I gave authorization for them to be taken out. Hello?
 ./technical/government/Media/Targeting_Domestic_Violence.txt:56: Groups to apply for the grant: Help for Abused Women and their
 ./technical/government/Media/Targeting_Domestic_Violence.txt:72: Candace Waldron, executive director of Help for Abused Women and
 ```
-
 
 **Explanation:** Look for the word **"Abuse"** in .txt files in the `Media`  directory
 - Useful when you're trying to find every occurrence of a word. Can help find all the files where abuse occurred. 
