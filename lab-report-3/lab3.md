@@ -75,18 +75,22 @@ static int[] reversed(int[] arr) {
 ## **Example 1:**
 
 **Input:** `grep -n "Hello" ./technical/911report/*.txt`
+
+  
 **Output**: 
 ```
-./technical/911report/chapter-1.txt:682:    At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President:
+/technical/911report/chapter-1.txt:682:    At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President:
 There's been at least three instances here where we've had reports of aircraft  
 approaching Washington-a couple were confirmed hijack. And, pursuant to the President's  
 instructions I gave authorization for them to be taken out. Hello?
 ```
 
-**Explanation:** Searches through 911 reports to find where the word appears and on which line **"Hello"** is located. Which is useful for finding where specific words are within files.
+  
+  **Explanation:** Searches through 911 reports to find where the word appears and on which line **"Hello"** is located. Which is useful for finding where specific words are within files.
 
---- 
-## **Example 2:** 
+
+  
+  ## **Example 2:** 
 
 **Input:** `grep -n "Abuse" ./technical/government/Media/*.txt`  
 
