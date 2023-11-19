@@ -10,4 +10,4 @@
 
 
 
-[Lab Report 4](https://rickrodness.github.io/cse15l-lab-reports/lab-report-4)
+[Lab Report 4](https://rickrodness.github.io/cse15l-lab-reports/lab-report-4/lab-report-4)
