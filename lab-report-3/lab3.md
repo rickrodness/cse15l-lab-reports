@@ -65,75 +65,75 @@ for(int i = 0; i < arr.length; i += 1) {
 
 ## grep Command Usage
 
-### Option -i (Ignore case)
+### grep -n "text" grep.txt
 
 **Example 1:**
 
-![Image](grep1.png)  
+![Image](line-number-1.png)  
 
 
-**Explanation:** Searches for the string "whole" in `quote1.txt` ignoring case sensitivity 
-- Useful for finding matches regardless of how the text is capitalized
+**Explanation:** Searches through 911 reports to find which line the word `Hello` appears on
+- Useful for finding where specific words are within files. 
 
 **Example 2:**
 
-![Image](grep2.png)  
+![Image](line-number-2.png)  
 
 
-**Explanation:** Look for the word "loving" in `quote2.txt` 
-- Useful when you're unsure of the text's capitalization
+**Explanation:** Look for the word **"Abuse"** in .txt files in the `Media`  directory
+- Useful when you're trying to find every occurrence of a word. Can help find all the files where abuse occurred. 
 
 ### Option -c (Count)
 
 **Example 1:**
 
-![Image](grep3.png)  
+![Image](recursive+line.png)  
 
 
-**Explanation:** Counts the number of times "dog" appears in `quote3.txt` 
+**Explanation:** Counts the number of times **"and"** appears in the `911report` directory 
 - Useful to quantify the number of occurrences of the word
 
 **Example 2:**
 
-![Image](grep4.png)  
+![Image](recursive+line2.png)  
 
 
-**Explanation:** Gives the count of the word "dog" in `quote1.txt` 
+**Explanation:** Returns the number of times the word **"emergency"** in the `chapter-1.txt` file inside of the 911report directory 
 
-### Option -r (Recursive)
+### Option -rn (Recursive number)
 
 **Example 1:**
 
-![Image](grep5.png)  
+![Image](grep-count-1.png)  
 
 
-**Explanation:** Recursively searches for "earth" in all files within the `./quotes` directory 
+**Explanation:** Recursively searches for the word **"algorithm"** in all files within the `./technical` directory
 - Allows for searching through multiple files at once 
 
 **Example 2:**
 
-![Image](grep6.png)  
+![Image](grep-count-2.png)  
 
 
-**Explanation:** Searches for the phrase "money" throughout all files in the `./quotes` directory
-- Useful for finding phrases in a large collection of documents
+**Explanation:** Searches for a more specific phrase **"algorithm analysis"** throughout all files in the `./technical` directory
+- Useful for finding key phrases in a large collection of documents, perhaps for research purposes. 
 
 ### Option --color (Color match)
 
 **Example 1:**
 
-![Image](grep7.png)  
+![Image](color-match-1.png)  
 
 
-**Explanation:** Highlights the term "life" in the output from `quote1.txt` 
+**Explanation:** Highlights the term "mortality" in the file `./468-6708-3-10.txt` from biomed directory
 - Allows for highlighting specific words making it easier to spot
 
 **Example 2:**
 
-![Image](grep8.png)  
+![Image](color-match-2.png)  
 
 
-**Explanation:** Highlights "speak" in `quote4.txt` making it easier to find 
+**Explanation:** Highlights "fine" in `Abuse_Penalties` making it easier to find the specific fines associated with crimes. 
 
 
 ### Works Cited: 
