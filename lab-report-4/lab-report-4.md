@@ -1,6 +1,6 @@
 # Lab Report 4 - Vim 
 
-## Lab Report Steps
+## Lab Steps (4-9)
 ### Step 4: Log into ieng6
 - **Action**: Use SSH to log into your ieng6 account.
 - **Keys pressed**: `ssh cs` `<right>` `<enter>`
