@@ -32,7 +32,8 @@
 
 ### Step 8: Run the Tests (Demonstrating Success)
 - **Action**: Rerun the tests to show they now succeed.
-- **Keys pressed**: ` bash test.sh` `<enter>`
+- **Keys pressed**: `bash test.sh`  `<enter>`
+
 ![Image](test-pass.jpg)
 - **Effect**: Reruns the tests, which should now pass. Uses the same command as in Step 6.
 
