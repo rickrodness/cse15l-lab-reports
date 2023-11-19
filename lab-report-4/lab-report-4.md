@@ -15,7 +15,7 @@
 
 ### Step 6: Run the Tests (Demonstrating Failure)
 - **Action**: Run the initial tests that are expected to fail 
-- **Keys pressed**: `cd lab7` `ls` `test.sh` `<enter>`
+- **Keys pressed**: `cd lab7` `<enter>` `ls` `test.sh` `<enter>`
 ![Image](test-fail.png)
 - **Effect**: Executes the test commands, showing that the initial tests fail. 
 
@@ -26,7 +26,7 @@
     - `:44 <enter>`  - Move cursor to line 44 
     - `fi` - Find next word on the line that starts with i 
     - `cwindex2`: - Change word where the cursor is to index2
-    - `esc` + `q!` : Exit and save
+    - `esc` + `q!` `<enter>` : Exit and save
  ![Image](edit.png)
 - **Effect**: Opens the file in Vim for editing, makes necessary changes, and saves them. 
 
