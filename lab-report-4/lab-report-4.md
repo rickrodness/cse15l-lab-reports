@@ -33,7 +33,7 @@
 ### Step 8: Run the Tests (Demonstrating Success)
 - **Action**: Rerun the tests to show they now succeed.
 - **Keys pressed**: ` bash test.sh` `<enter>`
-![Image](test-pass.png)
+![Image](test-pass.jpg)
 - **Effect**: Reruns the tests, which should now pass. Use the same command as in Step 6.
 
 ### Step 9: Commit and Push the Changes
