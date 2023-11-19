@@ -70,7 +70,6 @@ static int[] reversed(int[] arr) {
 ### Grep Command Usage:
 
 ## grep -n 
-
 - This command prints out the matches for the text along with the line numbers. 
 
 ## **Example 1:**
