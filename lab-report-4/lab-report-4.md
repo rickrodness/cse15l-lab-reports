@@ -5,7 +5,7 @@
 - **Action**: Use SSH to log into your ieng6 account.
 - **Keys pressed**: `ssh cs` `<right>` `<enter>`
 ![Image](ssh-sign-on.png)
-- **Effect**: Log into my course-specific ieng6 server using SSH, auto populate the last portion with the arrow key. 
+- **Effect**: Log into my course-specific ieng6 server using SSH. I auto populated the last portion with the arrow key. 
 
 ### Step 5: Clone Your Fork from GitHub
 - **Action**: Clone lab7 repository from github
