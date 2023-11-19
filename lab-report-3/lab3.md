@@ -224,7 +224,7 @@ technical/biomed/1476-4598-2-25.txt:581:        sequencing, and BLAST algorithm 
 
 - The `--color` option with `grep` is used to enhance the readability of certain words within a text file by highlighting the matching text. When the pattern is found the word will be highlighted red within the terminal. 
 
-##**Example 1:**
+## **Example 1:**
 
 **Input:** `grep --color "mortality" ./technical/biomed/1468-6708-3-10.txt`  
 
