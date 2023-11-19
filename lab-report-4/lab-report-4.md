@@ -15,7 +15,7 @@
 
 ### Step 6: Run the Tests (Demonstrating Failure)
 - **Action**: Run the initial tests that are expected to fail 
-- **Keys pressed**: `cd lab7` `<enter>` `ls` `test.sh` `<enter>`
+- **Keys pressed**: `cd lab7` `<enter>` `ls` `bash test.sh` `<enter>`
 ![Image](test-fail.png)
 - **Effect**: Executes the test commands, showing that the initial tests fail. 
 
