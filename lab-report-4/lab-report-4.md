@@ -45,5 +45,7 @@
     - `git commit -m "First Commit"` `<enter>`
     - `git push` `<enter>`
  ![Image](git-commit.png)
+ ![Image](git-push.png)
+
 - **Effect**: Save all changes, commits them with a message, and pushes the commit to GitHub repository.
 
