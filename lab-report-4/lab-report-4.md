@@ -11,7 +11,7 @@
 - **Action**: Clone lab7 repository from github
 - **Keys pressed**: `git clone https://github.com/ucsd-cse15l-s23/lab7`  `<enter>`
 ![Image](git-clone.png)
-- **Effect**: Clones the repository from GitHub to ieng6 machine
+- **Effect**: Clones the lab7 repository from GitHub to ieng6 machine
 
 ### Step 6: Run the Tests (Demonstrating Failure)
 - **Action**: Run the initial tests that are expected to fail 
