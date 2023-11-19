@@ -136,7 +136,8 @@ technical/plos/journal.pbio.0020439.txt:207:          Lee 1903) in a study of hu
 
 **Example 2:**
 
-**Input:** ` grep -rn "algorithm analysis" technical/`
+**Input:** ` grep -rn "algorithm analysis" technical/`  
+
 **Output**:
 ```
 technical/biomed/1476-4598-2-25.txt:581:        sequencing, and BLAST algorithm analysis. JOH performed
@@ -153,7 +154,8 @@ technical/biomed/1476-4598-2-25.txt:581:        sequencing, and BLAST algorithm 
 
 **Example 1:**
 
-**Input:** ` grep -c "and" ./technical/911report/*.txt`
+**Input:** ` grep -c "and" ./technical/911report/*.txt`  
+
 **Output:**
 ```
 ./technical/911report/chapter-1.txt:243
@@ -182,7 +184,8 @@ technical/biomed/1476-4598-2-25.txt:581:        sequencing, and BLAST algorithm 
 
 **Example 2:**
 
-**Input:** ` grep -c "emergency" ./technical/911report/chapter-1.txt`
+**Input:** ` grep -c "emergency" ./technical/911report/chapter-1.txt`  
+
 **Output:**
 ```
 6
@@ -199,7 +202,8 @@ technical/biomed/1476-4598-2-25.txt:581:        sequencing, and BLAST algorithm 
 
 ##**Example 1:**
 
-**Input:** `grep --color "mortality" ./technical/biomed/1468-6708-3-10.txt`
+**Input:** `grep --color "mortality" ./technical/biomed/1468-6708-3-10.txt`  
+
 **Output:**
 ```
         "usual care" reduces all-cause *mortality* in a subset of
@@ -217,7 +221,8 @@ technical/biomed/1476-4598-2-25.txt:581:        sequencing, and BLAST algorithm 
 ## **Example 2:**
 
 
-**Input:** `grep --color "fine" ./technical/government/Media/*.txt`
+**Input:** `grep --color "fine" ./technical/government/Media/*.txt`  
+
 **Output:**
 ```
 ./technical/government/Media/Abuse_penalties.txt:$100 *fine*.
