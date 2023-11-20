@@ -43,12 +43,12 @@ public void testReversedNonFailure() {
 **Explanation:**
 - The failure-inducing input tests whether the reversed method can correctly reverse a populated array. The buggy implementation fails this test by incorrectly reversing the elements.
 
-- The non-failure-inducing test checks the behavior of the reversed method with an empty array. Since reversing an empty array should yield an empty array, this test would pass even with the buggy implementation of the reversed method.
+- The non-failure-inducing test checks the behavior of the reversed method with an empty array. Since reversing an empty array should return an empty array, this test would pass with the buggy implementation of the reversed method.
 
 **Symptom of reversed Method Bug:**
-- When the testReversedFailure test case is run, we expect it to reverse the array, but due to the bug, the returned array has all elements set to zero. This is because the loop in the method incorrectly assigns values from an uninitialized newArray, resulting in a zero-filled array.
+- When the testReversedFailure test case is run, we expect it to reverse the array, but due to the bug, the returned array sets all elements to zero. This is because the loop in the method incorrectly assigns values from an uninitialized newArray, resulting in an array filled with 0's. 
 
-- The symptom of the bug manifests as a failed assertion in the JUnit test case, indicating that the expected output (a reversed array) does not match the actual output (an array filled with zeros).
+- The symptom of the bug can be found by the failed assertion in the JUnit test case. Indicating to us that the expected output (a reversed array) does not match the output array filled with zeros. 
 
 **Before Code Change:**
 ```java
