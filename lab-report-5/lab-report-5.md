@@ -1,4 +1,4 @@
-# Lab Report 5: Debugging Student Scenario
+# Lab Report 5
 
 ## Part 1 - Debugging Scenario on EdStem
 
