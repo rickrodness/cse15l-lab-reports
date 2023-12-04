@@ -97,3 +97,10 @@ bash test.sh
 ### Fixing the Bug
 
 - In `ListExamples.java`, change `index1 += 1;` to `index2 += 1;` in the `merge` method to correctly increment the index of the second list.
+
+
+--- 
+
+## Part 2: Reflection
+
+- One of the key learnings from the lab experiences and lectures in the latter half of this quarter was learning Vim. Previously, I had attempted to learn Vim but found it challenging, did not understand why it was more efficient, and eventually gave up. However, during this course, I was able to truly understand and appreciate the power of Vim, particularly the speed and ease with which it allows editing and navigating through lines of code. It is an efficient tool to have in my programming arsenal and I am grateful for the course going over it. 
