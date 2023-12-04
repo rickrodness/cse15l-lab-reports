@@ -41,10 +41,10 @@ The problem is that the index for the second list isn't being incremented correc
 
 ### File & Directory Structure
 
-- `ListExamples.java` (Java class with `merge` method)
+**Lab7** - (main directory)
+- `ListExamples.java` (java class with `merge` method)
 - `ListExamplesTests.java` (JUnit test class for `ListExamples`)
 - `test.sh` (Bash script to compile and run JUnit tests)
-- `lib/` (Directory containing JUnit and Hamcrest JAR files)
 
 ### Contents of Each File Before Fixing the Bug
 
@@ -97,7 +97,6 @@ bash test.sh
 ### Fixing the Bug
 
 - In `ListExamples.java`, change `index1 += 1;` to `index2 += 1;` in the `merge` method to correctly increment the index of the second list.
-
 
 --- 
 
