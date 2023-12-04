@@ -11,7 +11,7 @@ Hi,
 
 I'm encountering an odd issue with the `merge` method in our `ListExamples` Java class. When I run the JUnit tests, one of the tests (`testMerge2`) fails, but `testMerge1` passes. The issue is with merging lists where both have multiple elements. Here's a screenshot showing the terminal output:
 
-![Terminal Output: Failing JUnit Test]()
+![Terminal Output: Failing JUnit Test](pic1.png)
 
 I guess there's a problem in the loop that merges the elements, possibly with the index handling. Has anyone faced something similar? Any help would be appreciated!
 
@@ -31,7 +31,7 @@ It looks like an indexing issue in the merge loop. Can you insert a print statem
 **Body:**
 Thanks for the suggestion! After adding the print statement, I noticed that elements from the second list were not being added correctly. Here's the updated terminal output with the print statements:
 
-![Terminal Output: Debugging Output for ListExamples.merge Method](path/to/screenshot2.png)
+![Terminal Output: Debugging Output for ListExamples.merge Method](pic2.png)
 
 The problem is that the index for the second list isn't being incremented correctly in the loop. I was incrementing `index1` instead of `index2`.
 
