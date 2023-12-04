@@ -22,7 +22,7 @@ I guess there's a problem in the loop that merges the elements, possibly with th
 **Body:**
 Hi student,
 
-It looks like an indexing issue in the merge loop. Can you insert a print statement in the MERGE method to print the contents of RESULT at each step of the loop and share the output? This could give us more insight into how the elements are being merged.
+It looks like an indexing issue in the merge loop. Can you insert a print statement in the `merge` method to print the contents of `result` at each step of the loop and share the output? This could give us more insight into how the elements are being merged.
 
 ---
 
