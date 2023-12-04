@@ -63,8 +63,30 @@ The problem is that the index for the second list isn't being incremented correc
     }
   }
   ```
-- **ListExamplesTests.java:** (Your provided test cases)
-- **test.sh:** (Your provided bash script)
+- **ListExamplesTests.java:**
+```
+public class ListExamplesTests {
+	@Test(timeout = 500)
+	public void testMerge1() {
+    		List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));
+		List<String> l2 = new ArrayList<String>(Arrays.asList("a", "b"));
+		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
+	}
+	
+	@Test(timeout = 500)
+        public void testMerge2() {
+		List<String> l1 = new ArrayList<String>(Arrays.asList("a", "b", "c"));
+		List<String> l2 = new ArrayList<String>(Arrays.asList("c", "d", "e"));
+		assertArrayEquals(new String[]{ "a", "b", "c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
+        }
+
+}
+```
+- **test.sh:**
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
 
 ### Command Line to Trigger the Bug
 
