@@ -1,4 +1,4 @@
-# Lab Report: Debugging Scenario
+# Lab Report 5: Debugging Student Scenario
 
 ## Part 1 - Debugging Scenario on EdStem
 
@@ -7,22 +7,22 @@
 **Title:** Unexpected Output in ListExamples.merge Method
 
 **Body:**
-Hi all,
+Hi, 
 
-I'm encountering an odd issue with the `merge` method in our `ListExamples` Java class. When I run our JUnit tests, one of the tests (`testMerge2`) fails, but `testMerge1` passes. The issue seems to be with merging lists where both have multiple elements. Here's a screenshot showing the terminal output:
+I'm encountering an odd issue with the `merge` method in our `ListExamples` Java class. When I run the JUnit tests, one of the tests (`testMerge2`) fails, but `testMerge1` passes. The issue is with merging lists where both have multiple elements. Here's a screenshot showing the terminal output:
 
-![Terminal Output: Failing JUnit Test for ListExamples.merge Method](path/to/screenshot1.png)
+![Terminal Output: Failing JUnit Test]()
 
-My guess is that there's a problem in the loop that merges the elements, possibly with the index handling. Has anyone faced something similar? Any help would be appreciated!
+I guess there's a problem in the loop that merges the elements, possibly with the index handling. Has anyone faced something similar? Any help would be appreciated!
 
 ---
 
 ### Response from TA
 
 **Body:**
-Hi,
+Hi student,
 
-It looks like an indexing issue in the merge loop. Can you insert a print statement in the `merge` method to print the contents of `result` at each step of the loop and share the output? This could give us more insight into how the elements are being merged.
+It looks like an indexing issue in the merge loop. Can you insert a print statement in the MERGE method to print the contents of RESULT at each step of the loop and share the output? This could give us more insight into how the elements are being merged.
 
 ---
 
@@ -33,7 +33,7 @@ Thanks for the suggestion! After adding the print statement, I noticed that elem
 
 ![Terminal Output: Debugging Output for ListExamples.merge Method](path/to/screenshot2.png)
 
-The problem seems to be that the index for the second list isn't being incremented correctly in the loop. I was incrementing `index1` instead of `index2`.
+The problem is that the index for the second list isn't being incremented correctly in the loop. I was incrementing `index1` instead of `index2`.
 
 ---
 
